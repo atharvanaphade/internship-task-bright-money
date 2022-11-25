@@ -8,7 +8,6 @@ from rest_framework.renderers import JSONRenderer
 from rest_framework.permissions import IsAuthenticated
 
 import plaid
-from plaid import Client
 import json, datetime
 
 from token_exchange.serializers import AccessTokenSerializer
